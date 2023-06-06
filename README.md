@@ -23,7 +23,7 @@ Users are able to:
 
 ### Screenshot
 
-![./Calculator.png](./screenshot.jpg)
+![/Calculator.png](./screenshot.jpg)
 
 ### Links
 
