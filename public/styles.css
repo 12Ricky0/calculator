@@ -1,0 +1,281 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(222, 26%, 31%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.theme {
+    font-size: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin: 8px 20px 0 0;
+    display: inline-block;
+}
+
+.right {
+    display: inline-flex;
+}
+
+.toggle {
+    margin-top: 50x;
+}
+
+.toggle-count {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    color: white;
+    letter-spacing: 17px;
+    font-size: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    background: hsl(223, 31%, 20%);
+}
+
+.form-range {
+    margin: 0;
+}
+
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background: hsl(6, 63%, 50%);
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+    background: hsl(6, 63%, 60%);
+}
+
+.slider-theme1[type=range]::-webkit-slider-thumb {
+    background: hsl(176, 100%, 44%);
+}
+
+.slider-theme1[type=range]::-webkit-slider-thumb:hover {
+    background: hsl(176, 100%, 60%);
+}
+
+.slider-theme2[type=range]::-webkit-slider-thumb {
+    background: hsl(25, 98%, 40%);
+}
+
+.slider-theme2[type=range]::-webkit-slider-thumb:hover {
+    background: hsl(25, 98%, 60%);
+}
+
+.container {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.input-display {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    color: white;
+    background-color: hsl(224, 36%, 15%);
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+.keys-container {
+    border-radius: 10px;
+    background-color: hsl(223, 31%, 20%);
+    padding: 30px 0;
+}
+
+
+
+.numbers,
+.delete {
+    height: 70px;
+    width: 20%;
+    border: none;
+    margin: 7px 6px;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(198, 20%, 13%);
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 3px 0px hsl(28, 16%, 65%);
+    text-align: center;
+    line-height: 1.15;
+    padding: 0;
+
+}
+
+.numbers:hover {
+    background-color: hsl(30, 25%, 98%);
+    cursor: pointer;
+}
+
+.function {
+    border: none;
+    margin: 7px 6px;
+    width: 43%;
+    height: 70px;
+    font-size: 1.5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+
+.delete,
+.reset {
+    box-shadow: 0 3px 0px hsl(224, 28%, 35%);
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+
+.delete:hover,
+.reset:hover {
+    background-color: hsl(225, 21%, 60%);
+    cursor: pointer;
+}
+
+
+.equal {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 3px 0px hsl(6, 70%, 34%);
+}
+
+.equal:hover {
+    background-color: hsl(6, 63%, 60%);
+    cursor: pointer;
+}
+
+.theme-2 {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0 3px 0px hsl(185, 58%, 25%);
+}
+
+.theme-2:hover {
+    background-color: hsl(185, 42%, 60%);
+}
+
+.theme-2a {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0 3px 0px hsl(25, 99%, 27%);
+}
+
+.theme-2a:hover {
+    background-color: hsl(25, 98%, 60%);
+}
+
+.theme-3 {
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 3px 0px hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
+
+.theme-3:hover {
+    background-color: hsl(268, 47%, 35%);
+}
+
+.theme-3a {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0 3px 0px hsl(285, 91%, 52%);
+    color: white;
+}
+
+.theme-3a:hover {
+    background-color: hsl(281, 89%, 40%);
+}
+
+.theme-3b {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0 3px 0px hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
+}
+
+.theme-3b:hover {
+    background-color: hsl(176, 100%, 60%);
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1500px) {
+
+    header {
+        width: 30%;
+        margin: 60px auto 20px;
+    }
+
+    .container {
+        width: 30%;
+        height: 50px;
+        margin: auto;
+    }
+
+    .numbers {
+        width: 18%;
+        height: 45px;
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    .delete {
+        height: 45px;
+        width: 20%;
+        border: none;
+        margin: 7px 6px;
+        font-size: 28px;
+    }
+
+    .function {
+        margin: 10px;
+        width: 41%;
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .toggle-count {
+        position: absolute;
+        top: 47px;
+        right: 34.2%;
+    }
+}
